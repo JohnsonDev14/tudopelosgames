@@ -5,11 +5,20 @@
 
 .container{
     display: flex;
+    justify-content: center; /* centro horizontal */
+    align-items: center;     /* centro vertical */
+    height: 100vh;           /* ocupa a tela inteira */
+}
+
+.calc{
+    background-color: rgb(224, 224, 224);
+    padding: 20px;
+    border-radius: 20px;
+    height: 20%;
+    align-content: center;
 }
 
 h1{
-    color: blue;
-    size: 20px;
+    margin: 8px;
+    align-self: center;
 }
-
-/* alterações */
